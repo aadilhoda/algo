@@ -26,6 +26,7 @@ void join(int a,int b)
     {
         int root_A = root(a);
         int root_B = root(b);
+         if(root_A==root_B) return;
         if(size[root_A] < size[root_B ])
         {
     ar[ root_A ] = ar[root_B];
