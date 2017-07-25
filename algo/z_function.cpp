@@ -18,7 +18,7 @@ int main()
 string s;
 cin>>s;
 vector <int> z=z_function(s);
-for(int i=0;i<z.length();++i) //print the z-array
+for(int i=0;i<z.size();++i) //print the z-array
 {
 cout<<z[i]<<" ";
 }
